@@ -1,0 +1,82 @@
+.payment-container {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .payment-summary p {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 12px 0;
+    color: #222;
+  }
+  
+  .payment-summary input {
+    width: 90%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .payment-summary input:focus {
+    border-color: #007BFF;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  .payment-summary button {
+    background: linear-gradient(135deg, #28a745, #218838);
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 95%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .payment-summary button:hover {
+    background: linear-gradient(135deg, #218838, #1e7e34);
+    transform: scale(1.05);
+  }
+  
+  .payment-methods label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 14px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .pay-button {
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 14px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .pay-button:hover {
+    background: linear-gradient(135deg, #0056b3, #004494);
+    transform: scale(1.05);
+  }
+  
